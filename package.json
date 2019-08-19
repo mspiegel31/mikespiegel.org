@@ -2,11 +2,10 @@
   "name": "gatsby-starter-hello-friend",
   "description": "A simple starter for Gatsby. That's it.",
   "version": "0.2.0",
-  "author": "Radek Kozieł <radoslaw.koziel@gmail.com>",
+  "author": "Mike Spiegel",
   "keywords": [
     "gatsby",
     "minimal",
-    "starter",
     "blog",
     "theme",
     "dark",
@@ -18,7 +17,7 @@
     "build": "gatsby build",
     "dev": "gatsby clean && gatsby develop",
     "format": "prettier --write \"src/**/*.js\"",
-    "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
+    "test": "echo \"Write tests!"
   },
   "dependencies": {
     "gatsby": "^2.0.76",

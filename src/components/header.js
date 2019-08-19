@@ -23,13 +23,13 @@ const Header = props => {
   const [isMobileMenuVisible, toggleMobileMenu] = useState(false)
   const [isSubMenuVisible, toggleSubMenu] = useState(false)
   const onChangeTheme = () => {
-    const opositeTheme =
+    const oppositeTheme =
       (userTheme || defaultTheme) === 'light' ? 'dark' : 'light'
 
-    changeTheme(opositeTheme)
+    changeTheme(oppositeTheme)
 
     typeof window !== 'undefined' &&
-      window.localStorage.setItem('theme', opositeTheme)
+      window.localStorage.setItem('theme', oppositeTheme)
   }
   const onToggleMobileMenu = () => toggleMobileMenu(!isMobileMenuVisible)
   const onToggleSubMenu = () => toggleSubMenu(!isSubMenuVisible)

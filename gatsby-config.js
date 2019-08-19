@@ -7,15 +7,15 @@ const postCSSMixins = require('postcss-mixins')
 
 module.exports = {
   siteMetadata: {
-    title: `Hello Friend`,
-    description: `A simple starter for Gatsby. That's it.`,
-    copyrights: '',
-    author: `@panr`,
+    title: `Mike Spiegel`,
+    description: `Personal blog of Mike Spiegel`,
+    copyrights: '© 2019 Mike Spiegel',
+    author: `Mike Spiegel`,
     logo: {
       src: '',
       alt: '',
     },
-    logoText: 'hello friend',
+    logoText: 'Thoughts on Software',
     defaultTheme: 'dark',
     postsPerPage: 5,
     showMenuItems: 2,
@@ -25,14 +25,15 @@ module.exports = {
         title: 'About',
         path: '/about',
       },
-      {
-        title: 'Showcase',
-        path: '/showcase',
-      },
-      {
-        title: 'Example',
-        path: '/example',
-      },
+      // example of adding other pages
+      // {
+      //   title: 'Showcase',
+      //   path: '/showcase',
+      // },
+      // {
+      //   title: 'Example',
+      //   path: '/example',
+      // },
     ],
   },
   plugins: [
@@ -114,8 +115,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-hello-friend`,
-        short_name: `hello-friend`,
+        name: `mikespiegel.org`,
+        short_name: `mikespiegel`,
         start_url: `/`,
         background_color: `#292a2d`,
         theme_color: `#292a2d`,
