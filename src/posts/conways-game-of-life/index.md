@@ -16,7 +16,9 @@ Now, that's longer than the length of an interview. I'm still pretty happy with 
 
 Don't let your inner demons keep you from getting back on that horse.  All the time you spend doubting yourself is wasted energy.  I guarantee the effort of trying again is much less painful than feeling sorry for yourself.
 
+
 Here's a demo:
 ![conway-demo](./conway_small.gif)
+
 
 you can find the sourcecode [on github](https://github.com/mspiegel31/conways_game_of_life).
